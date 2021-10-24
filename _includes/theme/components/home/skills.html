@@ -8,7 +8,7 @@
             <div class="col skill" data-aos="{{ skill.direction }}" data-aos-duration="{{ skill.duration }}">
               <div class="card">
                 <div class="card-header">
-                  <img src="{{ skill.image }}" />
+                  <img src="{{ skill.image | relative_url }}" />
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">{{ skill.title }}</h5>
