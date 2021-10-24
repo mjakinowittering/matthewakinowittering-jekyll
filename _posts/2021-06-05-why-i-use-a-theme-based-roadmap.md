@@ -30,7 +30,7 @@ Using a theme-based roadmap gives you the flexibility to reprioritise themes bas
 
 Much like a backlog of user stories, you'll priorities the opportunities and problems. Next, you'll arrange these themes over three or four columns. From left to right, they'll read Now, Next and Later. Once complete, you'll have produced something which resembles an agile board.
 
-![Anatomy of a Now, Next and Later roadmap](/assets/img/posts/2021-06-05-now-next-later.png){: .img-fluid}
+![Anatomy of a Now, Next and Later roadmap]({{ '/assets/img/posts/2021-06-05-now-next-later.png' | relative_url }}){: .img-fluid}
 
 Items in Now are well-understood problems with clear deliverables and fixed scope. As you move further to the right-hand side, you'll find items with more ambiguity. I am currently using Now, Next, Later and Ideas. The Later column on my roadmap contains fluffy titles for candidate projects requiring discovery. In contrast, the Ideas column is a backlog for problems and new ideas to replenish our Later column periodically.
 

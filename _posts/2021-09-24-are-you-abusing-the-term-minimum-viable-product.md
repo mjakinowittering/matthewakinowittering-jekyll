@@ -26,7 +26,7 @@ These behaviours are the antithesis of modern software development and prevent o
 
 While the metaphors present in Henrik Kniberg article "[Making sense of MVP (Minimum Viable Product) – and why I prefer Earliest Testable/Usable/Lovable](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp){:target="_blank"}" are perhaps a little confused. If you intended to build a car, I think you'd start with a simple automobile.
 
-![Skateboard, Scooter, Bicycle, Motorcycle and Car](/assets/img/posts/2021-09-24-iterations.png){: .img-fluid .mt-5 .mb-4}
+![Skateboard, Scooter, Bicycle, Motorcycle and Car]({{ '/assets/img/posts/2021-09-24-iterations.png' | relative_url }}){: .img-fluid .mt-5 .mb-4}
 
 But, the concept does highlight the need for deliberate iterations and pragmatism, which evolves the software complexity to delight customers.
 
@@ -50,7 +50,7 @@ Therefore, I think Kniberg is correct to recommend considering this initial rele
 
 Effectively communicating this point is tricky, as most don't understand the Minimum Viable Product concept. Depending upon the audience, saying prototype may be divisive or confusing. So instead, choose to describe the collection of features as an initial release. Where appropriate, I want to talk about our software in this fashion, as I believe it prepares others to expect further releases to accomplish the desired outcomes.
 
-[![Minimal Product Timeline](/assets/img/posts/2021-09-24-minimal-viable-product-timeline.png){: .img-fluid .mt-5 .mb-4}](/assets/img/posts/2021-09-24-minimal-viable-product-timeline.png){:target="_blank"}
+[![Minimal Product Timeline]({{ '/assets/img/posts/2021-09-24-minimal-viable-product-timeline.png' | relative_url }}){: .img-fluid .mt-5 .mb-4}](/assets/img/posts/2021-09-24-minimal-viable-product-timeline.png){:target="_blank"}
 
 As the product development team includes ideas postponed from the skateboard release, you'll edge closer to the desired MVP and later on a Viable Product. By regularly and carefully factoring in feedback, we can adapt to meet the market's needs and delight our customers. But what we're doing is so much more than adding features.
 

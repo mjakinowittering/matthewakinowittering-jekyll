@@ -8,4 +8,4 @@ I am a Product Manager with over <time data="in-product-since" datetime="{{ site
 
 Previously, I was employed as a Senior Product Manager at [The Exchange Lab](https://www.linkedin.com/company/the-exchange-lab/about/){:target="_blank"}, a [WPP](https://www.wpp.com/){:target="_blank"} company. WPP acquired The Exchange Lab for [Proteus](https://www.wpp.com/news/2015/12/groupm-acquires-programmatic-marketing-solutions-company-the-exchange-lab){:target="_blank"}, our proprietary Programmatic Advertising technology. I've also been a Product Manager at [Ask.com](http://uk.ask.com){:target="_blank"}.
 
-If you want to learn more, please read my [Resume](/resume/).
+If you want to learn more, please read my [Resume]({{ '/resume/' | relative_url }}).
