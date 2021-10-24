@@ -8,14 +8,16 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
-    container: ruby:2-buster
+    # container: ruby:2-buster
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/cache@v1
+      - uses: actions/cache@v2
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - uses: actions/setup-node@v2
         with:
@@ -25,6 +27,11 @@ jobs:
       - name: Install NPM dependencies.
         run: |
           npm install
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+          bundler-cache: true
 
       - name: Install Ruby dependencies.
         run: |
