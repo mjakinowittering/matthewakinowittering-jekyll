@@ -2,7 +2,7 @@
   <div class="headline box box-img text-center">
     <figure>
       <a href="{{ include.page.img_figcaption_href }}" target="_blank">
-        <img alt="{{ include.page.img_alt }}" class="img-fluid" src="{{ include.page.img_src }}" />
+        <img alt="{{ include.page.img_alt }}" class="img-fluid" src="{{ include.page.img_src | relative_url }}" />
         <figcaption>
           {{ include.page.img_figcaption }}
         </figcaption>

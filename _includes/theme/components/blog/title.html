@@ -1,6 +1,6 @@
 <hgroup>
   <h3>
-      <a href="{{ include.page.url }}">{{ include.page.title }}</a>
+      <a href="{{ include.page.url | relative_url }}">{{ include.page.title }}</a>
   </h3>
   <p>📅 <time class="ms-1">{{ include.page.published }}</time></p>
 </hgroup>

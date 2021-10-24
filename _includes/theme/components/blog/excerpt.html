@@ -3,6 +3,6 @@
   {% include theme/components/blog/headline.html page=include.page %}
   {{ include.page.excerpt }}
   {% if include.page.no_excerpt != true %}
-    <p><a href="{{ include.page.url }}">Continue reading ...</a></p>
+    <p><a href="{{ include.page.url | relative_url }}">Continue reading ...</a></p>
   {% endif %}
 </div>

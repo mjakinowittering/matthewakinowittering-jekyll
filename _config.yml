@@ -1,67 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Matthew Akino-Wittering
 subtitle: Product Manager
 email: matthew.akinowittering@outlook.com
-description: Hello, I’m Matthew and this is my corner of the Internet.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://matthew.akinowittering.com" # the base hostname & protocol for your site, e.g. http://example.com
-
+description: 'Hello, I’m Matthew and this is my corner of the Internet.'
+baseurl: ''
+url: 'https://matthew.akinowittering.com'
 author:
   name: Matthew Akino-Wittering
   links:
-    - url: https://www.linkedin.com/in/matthewwittering/
+    - url: 'https://www.linkedin.com/in/matthewwittering/'
       label: LinkedIn
       icon: fa-brands fa-linkedin
-
-    - url: https://bitbucket.org/snippets/mjakinowittering/
+    - url: 'https://bitbucket.org/snippets/mjakinowittering/'
       label: BitBucket
       icon: fa-brands fa-bitbucket
-
-    - url: https://dribbble.com/mjakinowittering/likes
+    - url: 'https://dribbble.com/mjakinowittering/likes'
       label: Dribbble
       icon: fa-brands fa-dribbble
-
-    - url: https://github.com/mjakinowittering
+    - url: 'https://github.com/mjakinowittering'
       label: GitHub
       icon: fa-brands fa-github
-
-    - url: https://www.scrumalliance.org/community/profile/mwittering
+    - url: 'https://www.scrumalliance.org/community/profile/mwittering'
       label: Scrum Alliance
       icon: fa-solid fa-globe
-
-    - url: https://twitter.com/mjwittering
+    - url: 'https://twitter.com/mjwittering'
       label: Twitter
       icon: fa-brands fa-twitter
-
-# Permalink pattern
-permalink: /:categories/:title/
-
-# Build settings
+permalink: '/:categories/:title/'
 markdown: kramdown
-
 sass:
   sass_dir: _sass
   style: compressed
-
 jekyll_tidy:
   exclude:
     - '**/*.css'
@@ -69,34 +37,22 @@ jekyll_tidy:
     - '**/*.js'
     - '**/*.js.map'
     - '**/*.scss'
-
 plugins:
   - jekyll-tidy
   - jekyll-timeago
-
-# Collections
 collections:
   education:
     output: false
-    permalink: /education/:title:output_ext
+    permalink: '/education/:title:output_ext'
   employment:
     output: false
-    permalink: /employment/:title:output_ext
+    permalink: '/employment/:title:output_ext'
   hobbies:
     order:
       - programming.md
       - podcasts.md
     output: false
-    permalink: /hobbies/:title:output_ext
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
+    permalink: '/hobbies/:title:output_ext'
 exclude:
   - .sass-cache/
   - .jekyll-cache/
