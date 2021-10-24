@@ -1,0 +1,7 @@
+<div class="history" id="hobbies">
+  <h2>Hobbies</h2>
+  {% for hobby in site.hobbies %}
+    <h3>{{ hobby.title }}</h3>
+    {{ hobby.content }}
+  {% endfor %}
+</div>

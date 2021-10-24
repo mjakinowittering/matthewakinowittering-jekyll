@@ -1,0 +1,38 @@
+//
+// Articles
+//
+
+// ----------------------------------------------------------------------------
+// Home / Articles
+
+.articles {
+    padding: 2rem 0 1rem;
+
+    hgroup {
+        margin: 0 0 1rem;
+
+        h3 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+
+            a, a:link {
+                color: $domain;
+            }
+
+            a:hover {
+                color: $domain;
+            }
+
+            a:visited {
+                color: $domain;
+            }
+
+            a:visited:hover {
+                color: $domain;
+            }
+        }
+    }
+}

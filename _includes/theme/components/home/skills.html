@@ -1,0 +1,24 @@
+<div class="skills" id="skills">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col">
+        <h2>What I do!</h2>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 d-flex flex-nowrap flex-lg-wrap overflow-lg-hidden skills-list">
+          {% for skill in site.data.skills %}
+            <div class="col skill" data-aos="{{ skill.direction }}" data-aos-duration="{{ skill.duration }}">
+              <div class="card">
+                <div class="card-header">
+                  <img src="{{ skill.image }}" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ skill.title }}</h5>
+                  <p class="card-text">{{ skill.body }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

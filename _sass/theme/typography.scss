@@ -1,0 +1,121 @@
+//
+// Typography
+//
+
+a, a:link {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:visited {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+blockquote {
+    background: $bg;
+    border-left: 5px solid $primary  ;
+    padding: 1rem 1rem 1rem 2rem;
+
+    cite:before {
+        content: "—";
+        margin: 0  0.5rem 0 0;
+    }
+
+    p:last-child {
+        margin: 0;
+    }
+}
+
+
+hr {
+    margin: 3rem auto 3rem;
+    opacity: 1;
+    width: 33%;
+}
+
+dt, dd, figcaption, li, p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+}
+
+li {
+    line-height: 1.75;
+    margin: 0 0 0.25rem;
+}
+
+// -----------------------------------------------------------------------------
+// On Screen
+
+@media screen {
+    h1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.9rem;
+        margin: 0 0 1rem;
+    }
+
+    h2 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.8rem;
+        margin: 0 0 1rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        margin: 0 0 1rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        margin: 0 0 1rem;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+        margin: 0 0 1rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+        margin: 0 0 1rem;
+    }
+}
+
+// -----------------------------------------------------------------------------
+// Print
+
+@media print {
+    a, a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:visited:hover {
+        text-decoration: none;
+    }
+
+    h2 {
+        font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+    }
+
+    hr {
+        display: none;
+    }
+}

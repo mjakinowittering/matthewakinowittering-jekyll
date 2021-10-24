@@ -1,0 +1,17 @@
+---
+layout:  index
+body_id: resume
+---
+<div class="main" id="{{ layout.body_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <article>
+          {% include theme/components/resume/education.html %}
+          <hr />
+          {% include theme/components/resume/employment.html %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

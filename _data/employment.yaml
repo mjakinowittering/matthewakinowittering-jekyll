@@ -1,0 +1,29 @@
+- key:       acorn-i
+  name:      Acorn Intelligence Ltd
+  type:      business
+  address:   https://acorn-i.com/
+  date-from: 2019-08-05 00:00:00 +0000
+  date-to:   null
+
+- key:          the-exchange-lab
+  name:         The Exchange Lab
+  type:         business
+  address:      https://www.linkedin.com/company/the-exchange-lab/about/
+  date-from:    2013-12-02 00:00:00 +0000
+  date-to:      2019-07-12 23:59:59 +0000
+  introduction: The Exchange Lab was a small programmatic advertising agency that specialised in a platform-agnostic approach to buying display advertising. While at TEL, I contributed to various product areas as I rotated across squads delivering our proprietary technology, Proteus. TEL was acquired by WPP, on behalf of GroupM in December 2015.
+
+- key:          ask-jeeves
+  name:         Ask Jeeves
+  type:         business
+  address:      https://uk.ask.com/
+  date-from:    2010-01-01 00:00:00 +0000
+  date-to:      2013-10-04 23:59:59 +0000
+  introduction: After completing my degree I joined Ask Jeeves took an internship working as a Research Assistant. After six months I was formally hired as a Junior Product Manager. I then worked across multiple initiatives to improve the relevance of search results and creating curated answers to common questions.
+
+# - key:       andalucia-web-solutions
+#   name:      Andalucia Web Solutions
+#   type:      business
+#   address:   http://www.andaluciaws.com/
+#   date-from: 2007-07-01 00:00:00 +0000
+#   date-to:   2008-07-31 23:59:59 +0000

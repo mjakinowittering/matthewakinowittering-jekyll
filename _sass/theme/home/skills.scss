@@ -1,0 +1,83 @@
+//
+// Skills
+//
+
+// ----------------------------------------------------------------------------
+// Home / Skills
+
+.skills {
+    background: $skills-bg;
+    padding: 2rem 0 0;
+
+    h2 {
+        margin: 0 0 2rem;
+        text-align: center;
+    }
+
+    .skills-list {
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+
+        .skill {
+            display: flex;
+            flex-direction: row;
+            margin: 0 0 3rem;
+            scroll-snap-align: start;
+        }
+    }
+
+    .card {
+        border-radius: 0.3rem;
+
+        .card-header {
+            background: $bg;
+            border-bottom: none;
+            border-top-left-radius: 0.3rem;
+            border-top-right-radius: 0.3rem;
+            padding: 1.5rem 1.5rem;
+            text-align: center;
+
+            img {
+                margin: 0 auto;
+                width: 50%;
+            }
+        }
+
+        .card-title {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        .card-body {
+            flex-grow: 1;
+
+            p {
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+
+// -----------------------------------------------------------------------------
+// LG Overrides
+
+// @include media-breakpoint-down(sm) {
+//     .skills {
+//         min-height: calc(100vh);
+//         padding: 2rem 0 0;
+
+//         .skills-list {
+//             min-height: calc(100vh - 99px);
+//             padding: 0 0 1rem;
+//         }
+//     }
+// }
+
+// @include media-breakpoint-up(lg) {
+//     .overflow-lg-hidden {
+//         overflow: hidden !important;
+//     }
+// }

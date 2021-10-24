@@ -1,0 +1,75 @@
+//
+// Hero
+//
+
+$hero-bg: $bg;
+$profile-bg: $grey;
+
+// -----------------------------------------------------------------------------
+// Home / Hero
+
+.hero {
+    background: $hero-bg;
+    padding: 2rem 0;
+
+    .profile {
+        .profile-bio {
+            section {
+                h1 {
+                    font-family: 'Permanent Marker', cursive;
+                    font-size: 3.3rem;
+                }
+            }
+        }
+
+        .profile-photo {
+            img {
+                background: $hero-bg;
+                border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            }
+        }
+    }
+}
+
+// -----------------------------------------------------------------------------
+// SM Overrides for Hero
+
+@include media-breakpoint-down(md) {
+    .hero {
+        padding: 2rem 0;
+    }
+}
+
+// -----------------------------------------------------------------------------
+// XS Overrides for Hero
+
+@include media-breakpoint-down(sm) {
+    @media (orientation: portrait) {
+        .hero {
+            padding: 0;
+
+            .profile {
+                .profile-bio {
+                    min-height: calc((100vh - 56px) / 2);
+
+                    section {
+                        h1 {
+                            font-size: 2.5rem !important;
+                            text-align: center;
+                        }
+
+                        p {
+                            margin: 0 0 1.5rem;
+                        }
+                    }
+                }
+
+                .profile-photo {
+                    display: block;
+                    min-height: calc((100vh - 56px) / 2);
+                    padding: 2rem 4rem 0rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+//
+// Footer
+//
+
+// -----------------------------------------------------------------------------
+// On Screen
+
+@media screen {
+    footer {
+        background: $footer-bg;
+        bottom: 0;
+        left: 0;
+        padding: 2rem 0 1.5rem;
+        position: relative;
+        right: 0;
+        width: 100%;
+
+        a, a:link {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:visited:hover {
+            text-decoration: none;
+        }
+
+        #links {
+            ul.list-group {
+                margin: 0;
+
+                li.list-group-item {
+                    background: none;
+                    border: none;
+                    font-size: 1.0rem;
+                    padding: 0.5rem 0rem;
+
+                    span {
+                        padding: 0 0 0 1.5rem;
+                    }
+
+                    svg {
+                        position: absolute;
+                        top: 14px;
+                    }
+                }
+            }
+        }
+
+        #acknowledgements {
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            dl {
+                margin: 0 0 2rem;
+
+                dt {
+                    font-size: 1.0rem;
+                    line-height: 1.75;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                dd {
+                    font-size: 1.0rem;
+                    line-height: 1;
+                    margin: 0 0 1rem;
+                    padding: 0;
+                }
+
+                dd:last-child {
+                   margin: 0;
+                }
+            }
+        }
+
+    }
+}
+
+// -----------------------------------------------------------------------------
+// Print
+
+@media print {
+    footer {
+        display: none;
+    }
+}

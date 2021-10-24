@@ -1,0 +1,8 @@
+<div class="excerpt {{ include.page.type }}">
+  {% include theme/components/blog/title.html page=include.page %}
+  {% include theme/components/blog/headline.html page=include.page %}
+  {{ include.page.excerpt }}
+  {% if include.page.no_excerpt != true %}
+    <p><a href="{{ include.page.url }}">Continue reading ...</a></p>
+  {% endif %}
+</div>

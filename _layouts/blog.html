@@ -1,0 +1,20 @@
+---
+layout:  index
+body_id: blog
+---
+<div class="main" id="{{ layout.body_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <article>
+          {% for post in site.posts %}
+            {% include theme/components/blog/excerpt.html page=post %}
+            {% if forloop.last != true %}
+              <hr />
+            {% endif %}
+          {% endfor %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+name: Build and deploy lab website to github pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    container: ruby:2-buster
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: npm
+
+      - name: Install NPM dependencies.
+        run: |
+          npm install
+
+      - name: Install Ruby dependencies.
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build static site with Jekyll.
+        run: bundle exec jekyll build
+
+      - name: Deploy static site to gh-pages branch.
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

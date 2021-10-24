@@ -1,0 +1,25 @@
+<hgroup>
+  <h3>
+    <a href="{{ organisation.address }}">
+      {{ organisation.name }}
+    </a>
+    {% if organisation.type == 'business' and events.size > 1 %}
+      <p class="length-of-service">{% include theme/components/resume/experience/length-of-service.html date-from=organisation.date-from date-to=organisation.date-to %}</p>
+    {% endif %}
+  </h3>
+  {% if organisation.introduction %}
+    <p class="introduction">{{ organisation.introduction }}</p>
+  {% endif %}
+</hgroup>
+{% for event in events %}
+  <hgroup>
+    <h4>
+      {{ event.title }}
+    </h4>
+    <p class="length-of-service">{% include theme/components/resume/experience/length-of-service.html date-from=event.date-from date-to=event.date-to %}</p>
+  </hgroup>
+  <section>
+    {{ event.content }}
+  </section>
+{% endfor %}
+

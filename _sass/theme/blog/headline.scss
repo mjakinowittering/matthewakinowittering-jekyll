@@ -1,0 +1,50 @@
+//
+// Blog / Headline
+//
+
+// -----------------------------------------------------------------------------
+// On Screen
+
+@media screen {
+    figure {
+        position: relative;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        figcaption {
+            background: rgba(0, 0, 0, 0.5);
+            bottom: 0;
+            color: #ffffff;
+            font-size: 0.8rem;
+            left: 0;
+            padding: 0.5rem 1rem;
+            position: absolute;
+            right: 0;
+            text-align: left;
+            width: auto;
+
+            a, a:link {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:visited:hover {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+}

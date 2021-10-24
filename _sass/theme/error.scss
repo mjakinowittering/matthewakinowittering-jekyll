@@ -1,0 +1,61 @@
+//
+// Error
+//
+
+$error-card-bg: #fefefe;
+$error-card-img-bg: #f8f7ff;
+$error-card-title-colour: #0b1628;
+$error-card-body-colour: #757482;
+
+// -----------------------------------------------------------------------------
+// Error
+
+.main-container-error {
+    background: $bg;
+    display: block;
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    position: relative;
+    
+    div.row{
+        min-height: 100vh;
+        
+        .error-message {
+            .card {
+                background: $bg;
+                border: none;
+                border-radius: none;
+                text-align: center;
+                
+                .card-img-top {
+                    background: $bg;
+                    padding: 1.5rem 2rem;
+                }
+                
+                .card-title {
+                    color: $error-card-title-colour;
+                    font-weight: 500;
+                }
+                
+                .card-body {
+                    color: $error-card-body-colour;
+                    flex-grow: 1;
+                    
+                    p {
+                        font-size: 1.1rem;
+                        line-height: 1.5;
+                    }
+                }
+                
+                .card-footer {
+                    background: $bg;
+                    border: none;
+                    
+                    a.btn-primary {
+                        color: $bg;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<h2>Employment</h2>
+{% for organisation in site.data.employment %}
+  <div class="experience">
+    {% assign events = site.employment | where: "organisation", organisation.key | sort: "date-from" | reverse %}
+    {% include theme/components/resume/experience/body.html organisation=organisation events=events %}
+    {% if forloop.last != true %}
+      <hr />
+    {% endif %}
+  </div>
+{% endfor %}

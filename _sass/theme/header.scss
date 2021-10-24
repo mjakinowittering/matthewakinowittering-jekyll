@@ -1,0 +1,64 @@
+//
+// Header
+//
+
+// ----------------------------------------------------------------------------
+// On Screen
+
+@media screen {
+    header {
+        background: $header-bg;
+    }
+
+    @include media-breakpoint-up(lg) {
+        header {
+            nav.navbar {
+                padding: 0;
+
+                li {
+                    margin: 0;
+                }
+
+                ul.navbar-nav {
+                    margin: 0 0 0 auto;
+
+                    li {
+                        a {
+                            padding: 1rem 0.75rem !important;
+                        }
+
+                        a.active {
+                            background: lighten($header-bg, 5%);
+                        }
+
+                        a:hover {
+                            background: lighten($header-bg, 4.5%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// -----------------------------------------------------------------------------
+// Print
+
+@media print {
+    header {
+        nav.navbar {
+            display: block;
+            padding: 0.5rem 0;
+
+            a.navbar-brand, a.navbar-brand:hover {
+                color: $body-color;
+                padding: 0.5rem 0;
+                text-decoration: none;
+            }
+
+            div#navbarSupportedContent {
+                display: none !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<div class="articles" id="articles">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <h2>Latest Articles</h2>
+        {% for post in site.posts limit:5 %}
+            {% include theme/components/blog/title.html page=post %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

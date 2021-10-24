@@ -1,0 +1,15 @@
+---
+layout:  index
+body_id: blog
+---
+<div class="main" id="{{ layout.body_id }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <article>
+          {% include theme/components/blog/body.html page=page %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
