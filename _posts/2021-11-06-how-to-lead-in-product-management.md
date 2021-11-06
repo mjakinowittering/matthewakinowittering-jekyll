@@ -1,12 +1,14 @@
 ---
 layout: post
+excerpt_separator: <!-- more -->
 title: How to Lead in Product Management
 categories: blog
 published: 2021-11-06
 type: website
 img_alt: Open book
 img_figcaption: Unsplash
-img_figcaption_href: /assets/img/posts/2021-11-06-how-to-lead-in-product-management.jpg
+img_figcaption_href: https://unsplash.com/photos/q_gjDWf9ths
+img_src: /assets/img/posts/2021-11-06-how-to-lead-in-product-management.jpg
 ---
 I have found listening to Roman Pichler's book "[How to Lead in Product Management Practices](https://www.audible.co.uk/pd/How-to-Lead-in-Product-Management-Audiobook/B08FCWFLZM){:targat="_blank"}" a great help. From my perspective, I believe the vast majority of books and training materials that I'd found to date for product management had too narrow a focus on the product vision, discovery, requirements, planning and execution.
 
