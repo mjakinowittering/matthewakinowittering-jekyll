@@ -1,25 +1,26 @@
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
+  <div class="col">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="{{ '/' | relative_url }}">Matthew Akino-Wittering</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           {% for node in site.data.navigation %}
-            {% if page.url == node.url %}
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{ node.url | relative_url }}">{{ node.label }}</a>
-              </li>
-            {% else %}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ node.url | relative_url }}">{{node.label}}</a>
-              </li>
-            {% endif %}
+          {% if page.url == node.url %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ node.url | relative_url }}">{{ node.label }}</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ node.url | relative_url }}">{{node.label}}</a>
+          </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>
