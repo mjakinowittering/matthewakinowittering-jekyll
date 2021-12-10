@@ -6,8 +6,7 @@
 // Home / Skills
 
 .skills {
-    background: $skills-bg;
-    padding: 2rem 0 0;
+    padding: 0;
 
     h2 {
         margin: 0 0 2rem;
@@ -28,14 +27,17 @@
     }
 
     .card {
-        border-radius: 0.3rem;
+        background: $skills-bg;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px solid $primary;
+        border-radius: 0;
+        padding: 1.5rem;
 
         .card-header {
-            background: $bg;
-            border-bottom: none;
-            border-top-left-radius: 0.3rem;
-            border-top-right-radius: 0.3rem;
-            padding: 1.5rem 1.5rem;
+            background: $skills-bg;
+            border: none;
             text-align: center;
 
             img {
@@ -47,6 +49,7 @@
         .card-title {
             font-family: 'Permanent Marker', cursive;
             font-size: 1.6rem;
+            margin: 0 0 1.5rem;
             text-align: center;
         }
 
