@@ -63,11 +63,11 @@ $(document).ready(function() {
   }
 
   function calcInProductSinceInYears(dateFrom, dateTo) {
-      // Calculate the difference in Years as a decimal.
-      // Then truncate to two decimal placed.
-      // Then round up to nearest whole integer.
-      return dateTo.diff(dateFrom, 'years');
-    }
+    // Calculate the difference in Years as a decimal.
+    // Then truncate to two decimal placed.
+    // Then round up to nearest whole integer.
+    return dateTo.diff(dateFrom, 'years');
+  }
 
   // Add a nice human readable length of service to the page.
   $('.length-of-service span').each(function(index) {
@@ -85,7 +85,6 @@ $(document).ready(function() {
     } else {
       $(this).text(lengthOfServiceGreaterThanOneYear(lengthOfServiceInMonths));
     }
-
   });
 
   // Add a nice human readable length of service to the page.
@@ -99,4 +98,5 @@ $(document).ready(function() {
     // Replace the placeholder text.
     $(this).text(inProductSinceInYears);
   });
+
 });
