@@ -42,18 +42,6 @@
       "to": "assets/js/bootstrap.bundle.min.js.map"
     },
     {
-      "from": "node_modules/owl.carousel/dist/owl.carousel.min.js",
-      "to": "assets/js/owl.carousel.min.js"
-    },
-    {
-      "from": "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
-      "to": "assets/css/owl.carousel.min.css"
-    },
-    {
-      "from": "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
-      "to": "assets/css/owl.theme.default.min.css"
-    },
-    {
       "from": "node_modules/@fortawesome/fontawesome-free/js/all.min.js",
       "to": "assets/font/fontawesome/all.min.js"
     }
