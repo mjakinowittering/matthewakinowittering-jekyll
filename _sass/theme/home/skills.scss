@@ -14,15 +14,11 @@
     }
 
     .skills-list {
-        overflow-x: auto;
-        overflow-y: hidden;
-        scroll-snap-type: x mandatory;
 
         .skill {
             display: flex;
             flex-direction: row;
             margin: 0 0 1rem;
-            scroll-snap-align: start;
 
             .card {
                 background: $skills-bg;
@@ -88,20 +84,8 @@
 }
 
 
-// -----------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // LG Overrides
-
-// @include media-breakpoint-down(sm) {
-//     .skills {
-//         min-height: calc(100vh);
-//         padding: 2rem 0 0;
-
-//         .skills-list {
-//             min-height: calc(100vh - 99px);
-//             padding: 0 0 1rem;
-//         }
-//     }
-// }
 
 @include media-breakpoint-up(lg) {
     .skills {
