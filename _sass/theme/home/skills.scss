@@ -21,44 +21,68 @@
         .skill {
             display: flex;
             flex-direction: row;
-            margin: 0 0 2rem;
+            margin: 0 0 1rem;
             scroll-snap-align: start;
+
+            .card {
+                background: $skills-bg;
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 2px solid $primary;
+                border-radius: 0;
+                padding: 1.5rem;
+
+                .card-header {
+                    background: $skills-bg;
+                    border: none;
+                    text-align: center;
+
+                    img {
+                        margin: 0 auto;
+                        width: 50%;
+                    }
+                }
+
+                .card-title {
+                    font-family: 'Permanent Marker', cursive;
+                    font-size: 1.6rem;
+                    margin: 0 0 1.5rem;
+                    text-align: center;
+                }
+
+                .card-body {
+                    flex-grow: 1;
+
+                    p {
+                        line-height: 1.5;
+                    }
+                }
+            }
         }
+
     }
 
-    .card {
-        background: $skills-bg;
-        border-top: 0;
-        border-left: 0;
-        border-right: 0;
-        border-bottom: 2px solid $primary;
-        border-radius: 0;
-        padding: 1.5rem;
+    .tns-controls {
+        display: none;
+    }
 
-        .card-header {
-            background: $skills-bg;
-            border: none;
-            text-align: center;
+    .tns-nav {
+        margin: 0 0 1.5rem;
+        text-align: center !important;
 
-            img {
-                margin: 0 auto;
-                width: 50%;
-            }
+        [aria-controls] {
+            width: 9px;
+            height: 9px;
+            padding: 0;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: $skill-nav;
+            border: 0;
         }
 
-        .card-title {
-            font-family: 'Permanent Marker', cursive;
-            font-size: 1.6rem;
-            margin: 0 0 1.5rem;
-            text-align: center;
-        }
-
-        .card-body {
-            flex-grow: 1;
-
-            p {
-                line-height: 1.5;
-            }
+        .tns-nav-active {
+            background: $primary;
         }
     }
 }
@@ -79,8 +103,12 @@
 //     }
 // }
 
-// @include media-breakpoint-up(lg) {
-//     .overflow-lg-hidden {
-//         overflow: hidden !important;
-//     }
-// }
+@include media-breakpoint-up(lg) {
+    .skills {
+        .skills-list {
+            .skill {
+                margin: 0 0 2rem;
+            }
+        }
+    }
+}
