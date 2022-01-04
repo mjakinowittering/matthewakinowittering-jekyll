@@ -1,10 +1,3 @@
-// Initialise the AOS module.
-document.addEventListener('DOMContentLoaded', function() {
-  AOS.init({
-    once: true
- })
-});
-
 // jQuery nastiness.
 $(document).ready(function() {
 
