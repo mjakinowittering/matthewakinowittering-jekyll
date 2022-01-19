@@ -11,7 +11,7 @@ img_figcaption: Unsplash
 img_figcaption_href: https://unsplash.com/photos/oUxuOQfnhZQ
 img_src: /assets/img/posts/2021-12-14-amazon-ads-partner-awards-finalists.jpg
 ---
-I am thrilled that [Acorn Intelligence](https://www.acorn-i.com){:targat="_blank"} is a finalist for not one, but two categories for the inaugural [Amazon Ads Partner Awards](https://advertising.amazon.com/en-us/blog/uk-partner-awards-finalists){:targat="_blank"}! We made it to the final three in Innovation Award and Scaled Technology Award categories. As the Lead Product Manager for [Ignite by Acorn-i](https://acorn-i.com/ignite-by-acorn-i/){:target="_blank"}, it is incredible that we've reached the final three for the Scaled Technology awards, along with [Amerge](https://www.linkedin.com/feed/update/urn:li:activity:6877605664840011776/){:targat="_blank"} and [Pacvue](https://www.linkedin.com/feed/update/urn:li:activity:6876942476091895808/){:targat="_blank"}.
+I am thrilled that [Acorn Intelligence](https://www.acorn-i.com){:target="_blank"} is a finalist for not one, but two categories for the inaugural [Amazon Ads Partner Awards](https://advertising.amazon.com/en-us/blog/uk-partner-awards-finalists){:target="_blank"}! We made it to the final three in Innovation Award and Scaled Technology Award categories. As the Lead Product Manager for [Ignite by Acorn-i](https://acorn-i.com/ignite-by-acorn-i/){:target="_blank"}, it is incredible that we've reached the final three for the Scaled Technology awards, along with [Amerge](https://www.linkedin.com/feed/update/urn:li:activity:6877605664840011776/){:target="_blank"} and [Pacvue](https://www.linkedin.com/feed/update/urn:li:activity:6876942476091895808/){:target="_blank"}.
 
 <!-- more -->
 
