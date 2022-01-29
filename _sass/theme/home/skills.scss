@@ -18,7 +18,7 @@
         .skill {
             display: flex;
             flex-direction: row;
-            margin: 0 0 1rem;
+            margin: 0;
 
             .card {
                 background: $skills-bg;
@@ -64,7 +64,7 @@
     }
 
     .tns-nav {
-        margin: 0 0 1.5rem;
+        margin: 1.5rem 0 0.5rem;
         text-align: center !important;
 
         [aria-controls] {
@@ -81,6 +81,10 @@
             background: $primary;
         }
     }
+
+    .tns-inner {
+        margin: 0 0 0 24px !important;
+    }
 }
 
 
@@ -91,7 +95,7 @@
     .skills {
         .skills-list {
             .skill {
-                margin: 0 0 2rem;
+                margin: 0;
             }
         }
     }

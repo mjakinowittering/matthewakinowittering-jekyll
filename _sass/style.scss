@@ -115,11 +115,8 @@ body {
 
 @media screen {
     .main-container {
-        div.main {
+        main {
             padding: 2rem 0;
-        }
-
-        div.main:not(#home) {
             min-height: 100vh;
         }
 
