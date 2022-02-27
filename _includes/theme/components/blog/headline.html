@@ -1,16 +1,16 @@
 {% if include.page.type == 'website' and include.page.img_src %}
-  <div class="headline box box-img text-center">
-    <figure>
-      <a href="{{ include.page.img_figcaption_href }}" target="_blank">
+  <figure>
+    <div class="ratio ratio-16x9">
+      <a href="{{ include.page.url }}">
         <img alt="{{ include.page.img_alt }}" class="img-fluid" src="{{ include.page.img_src | relative_url }}" />
-        <figcaption>
-          {{ include.page.img_figcaption }}
-        </figcaption>
       </a>
-    </figure>
-  </div>
+    </div>
+    <figcaption>
+      <a href="{{ include.page.img_figcaption_href }}" target="_blank">{{ include.page.img_figcaption }}</a>
+    </figcaption>
+  </figure>
 {% elsif include.page.type == 'youtube' %}
-  <div class="box ratio ratio-16x9">
+  <div class="ratio ratio-16x9">
     <iframe src="{{ include.page.youtube_src }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 {% endif %}
