@@ -2,14 +2,14 @@
 layout: post
 excerpt_separator: <!-- more -->
 no_excerpt: false
-title: Why I use Product Narrative and Loglines to aid my storytelling
+title: Why I use Product Narratives and Loglines to aid my storytelling
 categories: blog
 published: 2022-03-21
 type: website
 img_alt: Fireplace in the evening. In the swiss mountains
 img_figcaption: Unsplash
 img_figcaption_href: https://unsplash.com/photos/IpaDEVMct8I
-img_src: /assets/img/posts/2022-03-21-why-i-use-product-narrative-and-loglines-to-aid-my-storytelling.jpg
+img_src: /assets/img/posts/2022-03-21-why-i-use-product-narratives-and-loglines-to-aid-my-storytelling.jpg
 ---
 I feel incredibly fortunate that I've had the opportunity to forge a career in product management for close to 12 years. Even with the ups and downs it invariably brings, it's a perfect fit for my interests. Like many, I enjoy taking on customer problems we've discovered and pursuing that valuable solution. However, this behaviour is far from my initial product management experience specifying the desired functionality in product requirements documents, handing over the work to an engineering team, and reviewing the output. At this point, I hadn't yet understood the value of storytelling.
 
