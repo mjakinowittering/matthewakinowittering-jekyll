@@ -35,7 +35,7 @@ However, we could adjust this structure to read as follows for a product develop
 
 >    A &lt;company/team/product&gt; must/needs to/wants to &lt;take action&gt; to &lt;fix a problem/win new audience/reach objectives&gt; or risk &lt;the stakes&gt;.
 
-It's not too dissimilar to the User Story format we all know. As a *blah*, I want to *blah blah*, So that I can *blah blah*.
+It's not too dissimilar to the User Story format we all know. As a blah, I want to blah blah, So that I can blah blah.
 
 So why is this important? In my humble opinion-the trickiest bit about being a Product Manager is bringing everyone together to develop a shared understanding. But as you find yourself talking to the different roles inside and outside your business, it will also be necessary to communicate different levels of detail. Getting this right takes practice and the courage to adapt when things don't go as expected.
 
